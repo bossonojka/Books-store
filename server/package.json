@@ -28,10 +28,6 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.nixdev.co/intensive-2020/vladimir-kulik/backend.git"
-  },
   "author": "",
   "license": "ISC"
 }
