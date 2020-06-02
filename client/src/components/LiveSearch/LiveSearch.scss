@@ -1,0 +1,20 @@
+.search-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.live-search {
+  font-family: inherit;
+  height: 35px;
+  width: 210px;
+  padding-left: 10px;
+  font-size: 12pt;
+  border: 2px solid black;
+  border-radius: 20px 20px;
+  box-shadow: 0 0 5px 3px #d1d1d1;
+  &:focus {
+    outline: none;
+  }
+}

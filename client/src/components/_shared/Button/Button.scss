@@ -1,0 +1,17 @@
+@import '../../../styles/abstracts/_variables.scss';
+
+.btn {
+  font-family: inherit;
+  background-color: $blackColor;
+  color: #fff;
+  border: 0;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: ease 0.5s all;
+
+  &:hover {
+    background-color: $blueColor;
+  }
+}

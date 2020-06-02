@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  outline: 0;
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+button {
+  outline: 0;
+  border: none;
+  background: #f0f0f0;
+  cursor: pointer;
+  &:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.3s;
+  }
+}

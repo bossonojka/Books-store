@@ -1,0 +1,6 @@
+export const TOGGLE_CART = 'TOGGLE_CART';
+export const GET_CART_ITEMS_BY_IDS = 'GET_CART_BY_IDS';
+export const DELETE_CART_ITEM = 'DELETE_CART_ITEM';
+export const COUNT_INCREMENT = 'COUNT_INCREMENT';
+export const COUNT_DECREMENT = 'COUNT_DECREMENT';
+export const CHECKOUT = 'CHECKOUT';

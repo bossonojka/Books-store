@@ -1,0 +1,32 @@
+.slider-container {
+  margin-top: 50px;
+}
+
+.slick-arrow {
+  width: 29px;
+  height: 29px;
+  border-radius: 20px;
+  z-index: 1;
+  margin: 0 20px;
+
+  &:before {
+    font-size: 30px;
+    color: #000;
+  }
+  &:hover {
+    color: gray;
+    transition: 0.3s;
+  }
+}
+
+.slider-img {
+  height: 300px;
+  border-radius: 10px 10px;
+}
+
+.slider-img-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

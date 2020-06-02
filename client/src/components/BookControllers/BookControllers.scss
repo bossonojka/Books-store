@@ -1,0 +1,39 @@
+@import '../../styles/abstracts/_variables.scss';
+
+.book-controllers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.book-controllers-media {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-controllers-media svg {
+  fill: $yellowColor;
+}
+
+.book-controllers-cart svg {
+  fill: $blackColor;
+}
+
+.controllers-icon {
+  display: block;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.controllers-icon {
+  &.active-cart {
+    fill: $blueColor;
+  }
+
+  &.active-favourite {
+    fill: $goldColor;
+  }
+}
